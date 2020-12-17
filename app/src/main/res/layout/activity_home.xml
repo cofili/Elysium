@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageButton
+        android:id="@+id/bttn_alerts"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_baseline_notifications_24"
+        android:tint="@color/burnt_orange"
+        android:background="@color/white"
+        android:layout_margin="20dp"/>
+
+    <ImageButton
+        android:id="@+id/bttn_properties"
+        android:layout_toEndOf="@+id/bttn_alerts"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_baseline_home_24"
+        android:tint="@color/burnt_orange"
+        android:background="@color/white"
+        android:layout_margin="20dp"/>
+
+    <ImageButton
+        android:id="@+id/bttn_tenants"
+        android:layout_toEndOf="@+id/bttn_properties"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_baseline_notifications_24"
+        android:tint="@color/burnt_orange"
+        android:background="@color/white"
+        android:layout_margin="20dp"/>
+
+    <ImageButton
+        android:id="@+id/bttn_transactions"
+        android:layout_below="@+id/bttn_alerts"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_baseline_credit_card_24"
+        android:tint="@color/burnt_orange"
+        android:background="@color/white"
+        android:layout_margin="20dp"/>
+
+    <ImageButton
+        android:id="@+id/bttn_rent"
+        android:layout_below="@+id/bttn_alerts"
+        android:layout_toEndOf="@id/bttn_transactions"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_baseline_attach_money_24"
+        android:tint="@color/burnt_orange"
+        android:background="@color/white"
+        android:layout_margin="20dp"/>
+
+    <ImageButton
+        android:id="@+id/bttn_todolist"
+        android:layout_below="@+id/bttn_alerts"
+        android:layout_toEndOf="@id/bttn_rent"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_baseline_library_add_check_24"
+        android:tint="@color/burnt_orange"
+        android:background="@color/white"
+        android:layout_margin="20dp"/>
+
+    <ImageButton
+        android:id="@+id/bttn_trips"
+        android:layout_below="@+id/bttn_transactions"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_baseline_directions_car_24"
+        android:tint="@color/burnt_orange"
+        android:background="@color/white"
+        android:layout_margin="20dp"/>
+
+    <ImageButton
+        android:id="@+id/bttn_documents"
+        android:layout_below="@+id/bttn_transactions"
+        android:layout_toEndOf="@id/bttn_trips"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_baseline_file_copy_24"
+        android:tint="@color/burnt_orange"
+        android:background="@color/white"
+        android:layout_margin="20dp"/>
+
+    <ImageButton
+        android:id="@+id/bttn_vendors"
+        android:layout_below="@+id/bttn_transactions"
+        android:layout_toEndOf="@id/bttn_documents"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_baseline_file_copy_24"
+        android:tint="@color/burnt_orange"
+        android:background="@color/white"
+        android:layout_margin="20dp"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
